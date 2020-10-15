@@ -5,7 +5,7 @@ setup(
     version="0.0.1",
     author="GabrielBlancoMora",
     author_email="gaboblanco256@gmail.com",
-    description="A small ecample package",
+    description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/GabrielBlancoM/Tarea3.git",
@@ -15,6 +15,11 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6
+    install_requires=[
+        'playsound',
+        'opencv-python',
+        'matplotlib',
+        ]
+    python_requires='>=3.6',
      
-)
+) 
